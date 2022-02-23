@@ -1,69 +1,29 @@
 ﻿//using System;
-//namespace diffrentpara
+//namespace class1
 //{
-//    class para
+//    public class animal
 //    {
-//        int bookid;
-//        String title, author;
-//        int price;
-
-        
-//        public void getdata(int bookid, int price)
+//        public void eat()
 //        {
-//            this.bookid = bookid;
-//            this.price = price;
-
+//            Console.WriteLine("eating...............");
 //        }
-//        public void getdata(int bookid, String title)
+//    }
+//    public class dog : animal
+//    {
+//        public void eat()
 //        {
-//            this.bookid = bookid;
-//            this.title = title;
-
-
-//        }
-//        public void getdata(String title, String author)
-//        {
-
-//            this.title = title;
-//            this.author = author;
-
-
-//        }
-
-//        public void display()
-//        {
-//            Console.WriteLine("book id = " + bookid);
-//            Console.WriteLine("book title = " + title);
-//            Console.WriteLine("book author= " + author);
-//            Console.WriteLine("price = " + price);
-
-
+           
+//            Console.WriteLine("eating bread..............");
 
 //        }
 //    }
-//    class Program
+//    class @program
 //    {
-//        static void Main(string[] args)
+//        static void Main()
 //        {
-//            para b = new para();
-//            b.getdata(1, 1200);
-//            b.display();
-//            Console.WriteLine("-----------------book1 details ----------");
+//            dog d=new dog();
 
-//            para b1 = new para();
-//            b1.getdata(1, "oracle");
-//            b1.display();
-//            Console.WriteLine("-----------------book1 details ----------");
-
-//            para b2 = new para();
-//            b2.getdata("oracle", "bill");
-//            b2.display();
-//            Console.WriteLine("-----------------book1 details ----------");
-
-
-//            Console.ReadLine();
-
+//            d.eat();
 //        }
 //    }
-
 //}
