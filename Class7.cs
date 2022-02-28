@@ -1,49 +1,26 @@
 ﻿//using System;
-//namespace class7
+//class prime
 //{
-//    public class Person
+//    static void Main()
 //    {
-//        String name;
-//        String address;
-//        public void getPersonData(String name, String address)
-//        {
-//            this.name = name;
-//            this.address = address;
-//        }
-//        public void displayPersonData()
-//        {
-//            Console.WriteLine("name : " + name);
-//            Console.WriteLine("address : " + address);
+//        int n = 9, i, m = 0, flag = 0;
+//        Console.Write("Enter the Number to check Prime: ");
 
+//        n = int.Parse(Console.ReadLine());
+
+//        m = n / 2;
+//        for (i = 2; i <= m; i++)
+//        {
+//            if (n % i == 0)
+//            {
+//                Console.Write("Number is not Prime.");
+//                flag = 1;
+//                break;
+//            }
 //        }
+//        if (flag == 0)
+//            Console.Write("Number is Prime.");
+
+//        Console.ReadLine();
 //    }
-//    public class Student : Person
-//    {
-//        int rno;
-//        int marks;
-//        public void getStudentData(int rno, int marks)
-//        {
-//            this.rno = rno;
-//            this.marks = marks;
-//        }
-//        public void displayStudentData()
-//        {
-//            Console.WriteLine("rno : " + rno);
-//            Console.WriteLine("marks : " + marks);
-
-//        }
-//    }
-//    class TestInheritance
-//    {
-//        public static void Main(string[] args)
-//        {
-//            Student p1 = new Student();//creating object of child class\
-//            p1.getPersonData("arifa", "nagpur");
-//            p1.getStudentData(111, 999);
-//            p1.displayStudentData();
-//            p1.displayPersonData();
-
-//        }
-//    }
-
 //}

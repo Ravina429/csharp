@@ -1,29 +1,21 @@
 ﻿//using System;
-//namespace class1
+//class prime
 //{
-//    public class animal
+//    static void Main()
 //    {
-//        public void eat()
-//        {
-//            Console.WriteLine("eating...............");
-//        }
-//    }
-//    public class dog : animal
-//    {
-//        public void eat()
-//        {
-           
-//            Console.WriteLine("eating bread..............");
+//        int n = 7, i, m = 0, flag = 0;
 
-//        }
-//    }
-//    class @program
-//    {
-//        static void Main()
+//        m = n / 2;
+//        for (i = 2; i <= m; i++)
 //        {
-//            dog d=new dog();
-
-//            d.eat();
+//            if (n % i == 0)
+//            {
+//                Console.Write("Number is not Prime.");
+//                flag = 1;
+//                break;
+//            }
 //        }
+//        if (flag == 0)
+//            Console.Write("Number is Prime.");
 //    }
 //}

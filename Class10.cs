@@ -1,49 +1,21 @@
 ﻿//using System;
-//namespace class10
+//namespace fibonacci
 //{
-//    public class Person
-//{
-//    String name;
-//    String address;
-//    protected internal void getPersonData(String name, String address)
+//    class class10
 //    {
-//        this.name = name;
-//        this.address = address;
+//        static void Main()
+//        {
+//            int n1 = 0, n2 = 1, n3, i, number;
+//            Console.WriteLine("enter the number of elements");
+//            number = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(n1 + " " + n2 + " ");
+//            for(i=2;i<number;i++)
+//            {
+//                n3 = n1 + n2;
+//                Console.Write(n3 + " ");
+//                n1 = n2;
+//                n2 = n3;
+//            }
+//        }
 //    }
-//    protected internal void displayPersonData()
-//    {
-//        Console.WriteLine("name : " + name);
-//        Console.WriteLine("address : " + address);
-
-//    }
-//}
-//public class Student : Person
-//{
-//    int rno;
-//    int marks;
-//    public void getStudentData(int rno, int marks)
-//    {
-//        this.rno = rno;
-//        this.marks = marks;
-//    }
-//    public void displayStudentData()
-//    {
-//        Console.WriteLine("rno : " + rno);
-//        Console.WriteLine("marks : " + marks);
-
-//    }
-//}
-//class TestInheritance
-//{
-//    public static void Main()
-//    {
-//        Student p1 = new Student();
-//        p1.getPersonData("arifa", "nagpur");
-//        p1.getStudentData(111, 999);
-//        p1.displayStudentData();
-//        p1.displayPersonData();
-
-//    }
-//}
-
 //}

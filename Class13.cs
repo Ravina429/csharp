@@ -1,43 +1,21 @@
 ﻿//using System;
-//namespace class13
+//class PalindromeExample
 //{
-//    class program
+//    static void Main()
 //    {
-//        public string address, city, state;
-//        public program (string address,string city,string state)
+//        int n, r, sum = 0, temp;
+//        Console.Write("Enter the Number: ");
+//        n = Convert.ToInt32(Console.ReadLine());
+//        temp = n;
+//        while (n > 0)
 //        {
-//            this.address = address;
-//            this.city = city;
-//            this.state = state;
-
+//            r = n % 10;
+//            sum = (sum * 10) + r;
+//            n = n / 10;
 //        }
-
-//    }
-//    class employe
-//    {
-//        public int id;
-//        public string name;
-//        public program adresss;
-//        public employe(int id, string name, program address)
-//        {
-//            this.id = id;
-//            this.name = name;   
-//            this.adresss = address;
-//        }
-//        public void display()
-//        {
-//            Console.WriteLine(id + " " + name + " " +
-//              adresss.address + " " + adresss.city + " " + adresss.state);
-//        }
-// }
-//    class @programm
-//    {
-//        static void Main()
-//        {
-//            program p = new program("G-13, Sec-3", "Noida", "UP");
-
-//                employe e = new employe(1, "Sonoo", p);
-//            e.display();
-//        }
+//        if (temp == sum)
+//            Console.Write("Number is Palindrome.");
+//        else
+//            Console.Write("Number is not Palindrome.");
 //    }
 //}

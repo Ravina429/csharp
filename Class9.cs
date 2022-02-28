@@ -1,49 +1,22 @@
 ﻿//using System;
+//using System;
 //namespace class9
+//{ 
+// class Fibonacci
 //{
-//    public class Person
+//     static void Main()
 //    {
-//        String name;
-//        String address;
-//        protected void getPersonData(String name, String address)
+//        int n1 = 0, n2 = 1, n3, i, number;
+//        Console.Write("Enter the number of elements: ");
+//        number = int.Parse(Console.ReadLine());
+//        Console.Write(n1 + " " + n2 + " ");   
+//        for (i = 2; i < number; ++i)     
 //        {
-//            this.name = name;
-//            this.address = address;
-//        }
-//        protected void displayPersonData()
-//        {
-//            Console.WriteLine("name : " + name);
-//            Console.WriteLine("address : " + address);
-
+//            n3 = n1 + n2;
+//            Console.Write(n3 + " ");
+//            n1 = n2;
+//            n2 = n3;
 //        }
 //    }
-//    public class Student : Person
-//    {
-//        int rno;
-//        int marks;
-//        public void getStudentData(int rno, int marks)
-//        {
-//            getPersonData("arifa", "nagpur"); 
-//            this.rno = rno;
-//            this.marks = marks;
-//        }
-//        public void displayStudentData()
-//        {
-//            displayPersonData(); 
-//            Console.WriteLine("rno : " + rno);
-//            Console.WriteLine("marks : " + marks);
-
-//        }
-//    }
-//    class TestInheritance
-//    {
-//        public static void Main()
-//        {
-//            Student p1 = new Student();
-//            p1.getStudentData(111, 999);
-//            p1.displayStudentData();
-           
-//        }
-//    }
-
+//}
 //}

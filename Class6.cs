@@ -1,31 +1,24 @@
 ﻿//using System;
-//namespace class6
+//class prime
 //{
-//    public class animal
+//    static void Main()
 //    {
-//        public void eat()
-//        {
-//            Console.WriteLine("Eating.......");
+//        int n = 9, i, m = 0, flag = 0;
+//        Console.Write("Enter the Number to check Prime: ");
 
+//        n = int.Parse(Console.ReadLine());
 
-//        }
-//    }
-//        public class dog : animal
+//        m = n / 2;
+//        for (i = 2; i <= m; i++)
 //        {
-//            public void bark()
+//            if (n % i == 0)
 //            {
-//                Console.WriteLine("Barking........");
+//                Console.Write("Number is not Prime.");
+//                flag = 1;
+//                break;
 //            }
 //        }
-    
-//    class @mothelok
-//    {
-//        static void Main()
-//        {
-//            dog d = new dog();
-
-//            d.eat();
-//            d.bark();
-//        }
+//        if (flag == 0)
+//            Console.Write("Number is Prime.");
 //    }
 //}

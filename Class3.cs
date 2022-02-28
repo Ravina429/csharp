@@ -1,51 +1,21 @@
-﻿//using System;
-//namespace class3
-//{
-//    public class Person
-//    {
-//        String name;
-//        String address;
-//        protected  void getPersonData(String name, String address)
-//        {
-//            this.name = name;
-//            this.address = address;
-//        }
-//        protected  void displayPersonData()
-//        {
-//            Console.WriteLine("name : " + name);
-//            Console.WriteLine("address : " + address);
+﻿////using System;
+////class prime
+////{
+////    static void Main()
+////    {
+////        int n = 0, i, m = 0, flag = 0;
 
-//        }
-//    }
-//    public class Student : Person
-//    {
-//        int rno;
-//        int marks;
-//        public void getStudentData(int rno, int marks)
-//        {
-//            getPersonData("fasina", "nagpur");
-//            this.rno = rno;
-//            this.marks = marks;
-//        }
-//        public void displayStudentData()
-//        {
-//            displayPersonData();
-//            Console.WriteLine("rno : " + rno);
-//            Console.WriteLine("marks : " + marks);
-
-//        }
-//    }
-//    class TestInheritance
-//    {
-//        public static void Main()
-//        {
-//            Student p1 = new Student();
-            
-//            p1.getStudentData(111, 999);
-//            p1.displayStudentData();
-            
-
-//        }
-//    }
-
-//}
+////        m = n / 2;
+////        for (i = 2; i <= m; i++)
+////        {
+////            if (n % i == 0)
+////            {
+////                Console.Write("Number is not Prime.");
+////                flag = 1;
+////                break;
+////            }
+////        }
+////        if (flag == 0)
+////            Console.Write("Number is Prime.");
+////    }
+////}

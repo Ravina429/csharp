@@ -1,33 +1,21 @@
 ﻿//using System;
-//namespace classs
+// class prime
+//{
+//     static void Main()
 //    {
-//  public  class animal
-//    {
-//        public string color = "white";
-        
-//    }
-//    public class dog:animal
-//    {
-//        public string color = "black";
+//        int n=4, i, m = 0, flag = 0;
 
-//        public void showColor()
+//               m = n / 2;
+//        for (i = 2; i <= m; i++)
 //        {
-//            Console.WriteLine(color);
-
+//            if (n % i == 0)
+//            {
+//                Console.Write("Number is not Prime.");
+//                flag = 1;
+//                break;
+//            }
 //        }
-
+//        if (flag == 0)
+//            Console.Write("Number is Prime.");
 //    }
-//    public class program
-//    {
-//        static void Main()
-//        {
-//            dog d = new dog();
-//            d.showColor();
-
-
-//        }
-//    }
-   
-
-
 //}

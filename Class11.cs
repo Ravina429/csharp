@@ -1,28 +1,19 @@
-﻿////multilecel inheritence
-
-//using System;
-//namespace class11
-//{ 
-//public class Animal
+﻿//using System;
+//namespace fibonacci
 //{
-//    public void eat() { Console.WriteLine("Eating..."); }
-//}
-//public class Dog : Animal
-//{
-//    public void bark() { Console.WriteLine("Barking..."); }
-//}
-//public class BabyDog : Dog
-//{
-//    public void weep() { Console.WriteLine("Weeping..."); }
-//}
-//class TestInheritance2
-//{
-//    public static void Main()
+//    class class10
 //    {
-//        BabyDog d1 = new BabyDog();
-//        d1.eat();
-//        d1.bark();
-//        d1.weep();
+//        static void Main()
+//        {
+//            int n1 = 0, n2 = 1, n3, i, number=5;
+//                        Console.WriteLine(n1 + " " + n2 + " ");
+//            for (i = 2; i < number; i++)
+//            {
+//                n3 = n1 + n2;
+//                Console.Write(n3 + " ");
+//                n1 = n2;
+//                n2 = n3;
+//            }
+//        }
 //    }
-//}
 //}
