@@ -1,21 +1,73 @@
 ﻿//using System;
-//class prime
+//namespace class2
 //{
-//    static void Main()
+//    abstract class account
 //    {
-//        int n = 100, i, m = 0, flag = 0;
+//        public int acno;
+//        public int balance=1000;
 
-//        m = n / 2;
-//        for (i = 2; i <= m; i++)
+//        public abstract string deposit(int acno, int balance);
+
+//        public string showbalance()
 //        {
-//            if (n % i == 0)
-//            {
-//                Console.Write("Number is not Prime.");
-//                flag = 1;
-//                break;
-//            }
+//            return "balance amount :" + balance;
 //        }
-//        if (flag == 0)
-//            Console.Write("Number is Prime.");
 //    }
+//    class current:account
+//    {
+//        public override string deposit(int acno, int amount)
+//        {
+//            this.acno = acno;
+//            balance = balance + amount;
+//            return "amount deposited successfully without interest in current class";
+
+//        }
+
+
+
+//    }
+//    class Saving : account
+//    {
+        
+//        public override string deposit(int acno, int amount)
+//        {
+//            this.acno = acno;
+//            int interest = 500;
+//            balance = balance + amount + interest;
+//            return "amount deposited successfully with interest in saving class";
+//        }
+//    }
+//    public class TestBase
+//    {
+//        public static void Main()
+//        {
+
+//            Console.WriteLine("enter account no ");
+//            int actno = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("enter amount to be deposited ");
+//            int amount = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("enter account type (saving or currrent)");
+//            String acttype = Console.ReadLine();
+
+
+//            account act = null;
+//            if (acttype == "saving")
+//            {
+//                act = new Saving();
+//            }
+//            else if (acttype == "current")
+//            {
+//                act = new current();
+//            }
+//            String res = act.deposit(actno, amount);
+//            Console.WriteLine("account no is " + act.acno);
+//            Console.WriteLine(res);
+//            res = act.showbalance();
+//            Console.WriteLine(res);
+
+
+
+//        }
+//    }
+
 //}

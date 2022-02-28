@@ -1,21 +1,36 @@
-﻿////using System;
-////class prime
-////{
-////    static void Main()
-////    {
-////        int n = 0, i, m = 0, flag = 0;
+﻿//using System;
+//namespace program
+//{
+//    public  interface drowable
+//    {
+//        public void draw();
+//    }
 
-////        m = n / 2;
-////        for (i = 2; i <= m; i++)
-////        {
-////            if (n % i == 0)
-////            {
-////                Console.Write("Number is not Prime.");
-////                flag = 1;
-////                break;
-////            }
-////        }
-////        if (flag == 0)
-////            Console.Write("Number is Prime.");
-////    }
-////}
+//    public class rectangle:drowable
+//    {
+//        public void draw()
+//        {
+//            Console.WriteLine("drawing rectangle....");
+//        }
+//    }
+//    public class circle:drowable
+//    {
+//        public void draw()
+//        {
+//            Console.WriteLine("drawing circle...");
+//        }
+//    }
+//    public class @class3
+//    {
+//        static void Main()
+//        {
+//            drowable d=new rectangle();
+
+//            d.draw();
+
+//            drowable d1=new circle();
+
+//            d1.draw();
+//        }
+//    }
+//}

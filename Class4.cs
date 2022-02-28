@@ -1,21 +1,29 @@
 ﻿//using System;
-//class prime
+//namespace class4
 //{
-//    static void Main()
+//    interface bank
 //    {
-//        int n = 2000, i, m = 0, flag = 0;
-
-//        m = n / 2;
-//        for (i = 2; i <= m; i++)
+//        string deposit(int acno, int amt);
+//    }
+//    class saving : bank
+//    {
+//        int acno;
+//        int balance = 100;
+//       public string deposit (int acno,int amt)
 //        {
-//            if (n % i == 0)
-//            {
-//                Console.Write("Number is not Prime.");
-//                flag = 1;
-//                break;
-//            }
+//            this.acno = acno;
+//            balance = balance + amt;
+//            return "deposited succsesfully successfully,bal is" + balance;
 //        }
-//        if (flag == 0)
-//            Console.Write("Number is Prime.");
+//    }
+//    class @program
+//    {
+//        static void Main()
+//        {
+//            bank b=new saving();
+
+//            string str = b.deposit(1, 200);
+//            Console.WriteLine(str);
+//        }
 //    }
 //}

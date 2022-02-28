@@ -1,21 +1,38 @@
 ﻿//using System;
-//class prime
+//namespace class1
 //{
-//    static void Main()
+//   public  abstract class shape
 //    {
-//        int n = 7, i, m = 0, flag = 0;
-
-//        m = n / 2;
-//        for (i = 2; i <= m; i++)
+//        public abstract void draw();
+        
+//    }
+//   public class rectangle:shape
+//    {
+//public override void draw()
 //        {
-//            if (n % i == 0)
-//            {
-//                Console.Write("Number is not Prime.");
-//                flag = 1;
-//                break;
-//            }
+//            Console.WriteLine("drawing rectangle......");
 //        }
-//        if (flag == 0)
-//            Console.Write("Number is Prime.");
+//    }
+//public class circle:shape
+//    {
+//        public override void draw()
+//        {
+//         Console.WriteLine("drawing circle.....");
+//        }
+//    }
+
+//    class @program
+//    {
+//        static void Main()
+//        {
+//            shape s=new rectangle();
+
+//            s.draw();
+
+//            shape s1=new circle();
+
+//            s1.draw();
+            
+//        }
 //    }
 //}

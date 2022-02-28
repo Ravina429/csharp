@@ -1,24 +1,48 @@
 ﻿//using System;
-//class prime
+//namespace class6
 //{
-//    static void Main()
+//    interface bank
 //    {
-//        int n = 9, i, m = 0, flag = 0;
-//        Console.Write("Enter the Number to check Prime: ");
-
-//        n = int.Parse(Console.ReadLine());
-
-//        m = n / 2;
-//        for (i = 2; i <= m; i++)
+//        String deposit(int actno, int amt);
+//        String withdraw(int actno, int amt);
+//    }
+//    class account
+//    {
+//        public int actno;
+//        public int bal = 1000;
+//        public String showbalance()
 //        {
-//            if (n % i == 0)
-//            {
-//                Console.Write("Number is not Prime.");
-//                flag = 1;
-//                break;
-//            }
+//            return "bal is " + bal;
 //        }
-//        if (flag == 0)
-//            Console.Write("Number is Prime.");
+//    }
+//    class saving : account, bank
+//    {
+
+//        public String deposit(int actno, int amt)
+//        {
+//            this.actno = actno;
+//            bal = bal + amt;
+//            return "deposited successfully successfully ,bal is " + bal;
+//        }
+//        public String withdraw(int actno, int amt)
+//        {
+//            this.actno = actno;
+//            bal = bal - amt;
+//            return "withdraw successfully ,bal is " + bal;
+//        }
+//    }
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            saving b;
+//            b = new saving();
+//            String str = b.deposit(1, 200);
+//            Console.WriteLine(str);
+
+//            str = b.withdraw(1, 100);
+//            Console.WriteLine(str);
+//            Console.WriteLine(b.showbalance());
+//        }
 //    }
 //}

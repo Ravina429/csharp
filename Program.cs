@@ -1,21 +1,31 @@
 ﻿//using System;
-// class prime
+//namespace program
 //{
-//     static void Main()
+//    abstract class person
 //    {
-//        int n=4, i, m = 0, flag = 0;
+//        public abstract void display();
 
-//               m = n / 2;
-//        for (i = 2; i <= m; i++)
+//        public void showdata()
 //        {
-//            if (n % i == 0)
-//            {
-//                Console.Write("Number is not Prime.");
-//                flag = 1;
-//                break;
-//            }
+//            Console.WriteLine("hello from showdata");
 //        }
-//        if (flag == 0)
-//            Console.Write("Number is Prime.");
+//    }
+//     class student:person
+//    {
+//        public override void display()
+//        {
+//            Console.WriteLine("hello from display method");
+//        }
+//    }
+//    class @programs
+//    {
+//        static void Main()
+//        {
+//            student s = new student();
+
+//            s.display();
+//            s.showdata();
+
+//        }
 //    }
 //}
