@@ -1,31 +1,21 @@
-﻿//using System;
-//namespace program
-//{
-//    abstract class person
-//    {
-//        public abstract void display();
+﻿using System;
+using System.Collections.Generic;
+namespace progrm
+{
 
-//        public void showdata()
-//        {
-//            Console.WriteLine("hello from showdata");
-//        }
-//    }
-//     class student:person
-//    {
-//        public override void display()
-//        {
-//            Console.WriteLine("hello from display method");
-//        }
-//    }
-//    class @programs
-//    {
-//        static void Main()
-//        {
-//            student s = new student();
+    class programm
+    {
+        delegate void del_display();
+        public void display()
+        {
+            Console.WriteLine("I Love my Mom Dad");
+        }
+        static void main()
+        {
+            programm p1 = new programm();
+            del_display d2 = new del_display(p1.display);
+            d2();
 
-//            s.display();
-//            s.showdata();
-
-//        }
-//    }
-//}
+        }
+    }
+}
